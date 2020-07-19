@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from torchstat import stat
 
 
 class AlexNet(nn.Module):
@@ -38,7 +37,4 @@ class AlexNet(nn.Module):
         out = out.view(x.size(0), -1)
         out = self.classifier(out)
         return out
-
-
-model = AlexNet()
-stat(model, (3, 224, 224))
+    

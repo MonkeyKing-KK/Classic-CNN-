@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from torchstat import stat
 
 
 class LeNet(nn.Module):
@@ -28,7 +27,4 @@ class LeNet(nn.Module):
         out = self.layer2(out)
         out = out.view(out.size(0), -1)
         return self.layer3(out)
-
-
-# model = LeNet()
-# stat(model, (1, 28, 28))
+    

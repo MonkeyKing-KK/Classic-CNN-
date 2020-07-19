@@ -9,10 +9,11 @@ LeNet, proposed in 1998 by LeCun, contains 7 layers including 2 conv, 2 pooling 
 
 ## 2. AlexNet
 AlexNet, proposed in 2012, contains 8 layers including 5 conv and 3 fc layers. <br>
-tricks: ReLU <br>
-        Dropout <br>
-        Local Response Normalization <br>
-        Overlapping Pooling
+### tricks
+ReLU <br>
+Dropout <br>
+Local Response Normalization <br>
+Overlapping Pooling
 
 ![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/Alexnet.png)
 ![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/AlexNet_data.png)

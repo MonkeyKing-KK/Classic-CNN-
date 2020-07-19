@@ -13,5 +13,5 @@ tricks: ReLU <br>
         Dropout <br>
         Local Response Normalization <br>
         Overlapping Pooling
-![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/AlexNet.png)
+
 ![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/AlexNet_data.png)

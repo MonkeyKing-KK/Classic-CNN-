@@ -30,5 +30,5 @@ class LeNet(nn.Module):
         return self.layer3(out)
 
 
-model = LeNet()
-stat(model, (1, 28, 28))
+# model = LeNet()
+# stat(model, (1, 28, 28))

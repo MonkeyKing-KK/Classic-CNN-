@@ -19,7 +19,7 @@ Overlapping Pooling
 ![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/AlexNet_data.png)
 
 ## 3. VGG16
-VGG is a series of neural network and contains 16-19 layers. <br>
+VGG, proposed in 2014, is a series of neural network and contains 16-19 layers. <br>
 We only implement VGG16 which consists of 13 conv, 5 pooling and 3 fc layers
 ### tricks
 Deeper <br>

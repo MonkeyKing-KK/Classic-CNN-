@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from torchstat import stat
 
 
 class ConvReLU(nn.Module):

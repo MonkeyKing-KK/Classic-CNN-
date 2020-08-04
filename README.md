@@ -26,3 +26,15 @@ Deeper <br>
 smaller kernel_size
 ![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/VGG16.png)
 ![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/VGG16_data.png)
+
+## 4. SqueezeNet
+SqueezeNet, proposed in 2016, is a lightweight neural network. <br>
+(reimplementation)
+Total param:1,244,448 <br>
+MAdd: 1.67G <br>
+Flops: 838.94M <br>
+### tricks
+1. Replace 3x3 filters with 1x1 filters <br>
+2. Decrease the number of input channels to 3x3 filters <br>
+3. Downsample late in the network so that convolution layers have large activation maps
+![image](https://github.com/MonkeyKing-KK/Classic-CNN-/blob/master/pictures/firemodule.png)

@@ -29,7 +29,7 @@ smaller kernel_size
 
 ## 4. SqueezeNet
 SqueezeNet, proposed in 2016, is a lightweight neural network. <br>
-(reimplementation)
+(reimplementation) <br>
 Total param:1,244,448 <br>
 MAdd: 1.67G <br>
 Flops: 838.94M <br>
